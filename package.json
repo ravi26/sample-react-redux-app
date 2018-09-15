@@ -1,0 +1,22 @@
+{
+  "name": "sample-react-redux-application",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "react"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-redux": "^5.0.7",
+    "redux": "^3.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
