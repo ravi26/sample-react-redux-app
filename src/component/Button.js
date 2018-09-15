@@ -13,15 +13,21 @@ class Buttons extends Component {
     this.props.decrement(2);
   }
   render() {
-    console.log(this.props);
     return (
       <div className="App">
-        <button onClick={this.increment}>
-          Button {this.props.incrementVal}
-        </button>
-        <button onClick={this.decrement}>
-          Button {this.props.decrementVal}
-        </button>
+        <div>
+          <span>
+            <button onClick={this.increment}>Increment By 2</button>
+          </span>
+          <span> Val : {this.props.incrementVal}</span>
+        </div>
+        <div>
+          <span>
+            <button onClick={this.decrement}>Decrement By 2:</button>
+          </span>
+          Val : {this.props.decrementVal}
+          <span />
+        </div>
       </div>
     );
   }
